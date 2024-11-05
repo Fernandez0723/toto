@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Digital Marketing Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  type="image/png" href="kenaz.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1A1A2E;
+            color: white;
+        }
+
+        header {
+            background-color: #121227;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            color: #FF007A;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 15px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #FF007A;
+        }
+
+        nav ul li::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: #FF007A;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s;
+        }
+
+        nav ul li:hover::after {
+            width: 100%;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #222244;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            color: #FF007A;
+            margin-bottom: 10px;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #CCCCCC;
+            animation: fadeIn 1s ease forwards;
+            animation-delay: 0.5s;
+        }
+
+        .services-list {
+            padding: 40px;
+            background-color: #222244;
+            border-radius: 8px;
+            margin: 20px;
+            animation: fadeIn 1s ease forwards;
+            opacity: 0;
+            transform: translateY(20px);
+            animation-delay: 1s; 
+        }
+
+        .services-list h2 {
+            color: #FF007A;
+            margin-bottom: 20px;
+        }
+
+        .services-list ul {
+            list-style-type: none;
+        }
+
+        .services-list li {
+            margin-bottom: 15px;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: #121227;
+            padding: 30px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .contact-info,
+        .disclaimer {
+            color: #CCCCCC;
+            font-size: 0.9rem;
+            max-width: 300px;
+        }
+
+        .contact-info h4,
+        .disclaimer h4 {
+            color: #FF007A;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .contact-info p,
+        .disclaimer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Kenaz Asher Estigoy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services-list">
+        <section class="hero">
+            <div class="text">
+                <h1>Our Services</h1><br>
+                <p>Explore our range of digital marketing services designed to elevate your brand. Digital marketing encompasses a wide range of online strategies and tactics aimed at promoting products or services through digital channels. Unlike traditional marketing, digital marketing leverages the internet and electronic devices to connect with consumers more effectively and efficiently.</p>
+            </div>
+        </section>
+        <br><br>
+        <h2>Why Digital Marketing Matters:</h2>
+        <p>In today’s digital-first world, consumers are increasingly turning to the internet to make informed purchasing decisions. Digital marketing allows businesses to reach a wider audience, track engagement and performance in real-time, and adapt strategies quickly to meet changing consumer needs.
+
+By integrating various digital marketing channels, businesses can create a cohesive and effective marketing strategy that drives growth and enhances customer experiences.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email:digitalmarketing@gmail.com</p>
+                <p>Phone: 0999999999</p>
+                <p>Address: Brgy. Estrella, Polomolok, Philippines</p>
+            </div>
+
+            <div class="disclaimer">
+                <h4>Disclaimer</h4>
+                <p>This website is for informational and educational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

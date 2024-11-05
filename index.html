@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Agency</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon"  type="image/png" href="kenaz.png">
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1A1A2E;
+            color: white;
+        }
+
+        header {
+            background-color: #121227;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            color: #FF007A;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 25px;
+            list-style: none;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 15px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #FF007A;
+        }
+
+        nav ul li::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: #FF007A;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s;
+        }
+
+        nav ul li:hover::after {
+            width: 100%;
+        }
+
+       .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 0px 40px;
+            background-color: #222244;
+        }
+
+        .testimonial {
+            background-color: ;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            max-width: 350px;
+            margin-top: 390px;
+            margin-left: 100px;
+            text-align: center; 
+        }
+
+        .testimonial h4 {
+            margin-bottom: 10px;
+        }
+
+        .testimonial p {
+            transition: opacity 0.5s ease;
+        }
+
+        .testimonial-image {
+            transition: opacity 0.5s ease;
+        }
+
+
+        .image {
+            margin-top: -120px;
+        }
+
+        .image img {
+            width: 350px;
+            height: 635px;
+        }
+
+        .text h1 {
+            font-family: serif;
+            font-size: 4.5rem;
+            color:#FF007A;
+        }
+
+        .text p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #CCCCCC;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #FF007A;
+            border: none;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #E6006A;
+        }
+
+        .image {
+            margin-top: -120px;
+        }
+
+        .image img {
+            width: 350px;
+            height: 635px;
+        }
+
+        footer {
+            background-color: #121227;
+            padding: 30px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .contact-info, .disclaimer {
+            color: #CCCCCC;
+            font-size: 0.9rem;
+            max-width: 300px;
+        }
+
+        .contact-info h4, .disclaimer h4 {
+            color: #FF007A;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .contact-info p, .disclaimer p {
+            margin: 5px 0;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer-center {
+            text-align: center;
+            color: #CCCCCC;
+            font-size: 0.9rem;
+        }
+
+    </style>
+
+    <header>
+        <h1 class="logo">Kenaz Asher Estigoy</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="text"><br>
+                <h1>Digital <br> Marketing <br> Agency</h1><br>
+                <p>We help you grow your business online<br>with cutting-edge marketing strategies <br> and customized solutions.</p><br>
+                <a href="services.html" class="btn">Learn More</a><br><br>
+                                <!-- Social Media Icons -->
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/KenazEstigoy" target="_blank">
+                        <img src="facebook_1051258.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="twitter_2504947.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/kenaziii_11?igsh=dm02dDhvaWQwbGtw&utm_source=qr" target="_blank">
+                        <img src="instagram_2111463.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="social_12942307.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+
+                      <div class="testimonial">
+                <h4>What Our Clients Say</h4>
+                <p>"Working with Kenaz was a game-changer for our business! Their expertise in digital marketing helped us reach new heights."</p>
+            </div>
+
+            <div class="image">
+                <img src="kenaz.png" alt="Man celebrating">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>Email:digitalmarketing@gmail.com</p>
+                <p>Phone: 0999999999</p>
+                <p>Address: Brgy. Estrella, Polomolok, Philippines</p>
+            </div>
+
+            <div class="disclaimer">
+                <h4>Disclaimer</h4>
+                <p>This website is for informational and educational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+    const testimonials = [
+        {
+            text: '"Working with Kenaz was a game-changer for our business! Their expertise in digital marketing helped us reach new heights."',
+        },
+        {
+            text: '"The team at Kenaz truly understands our needs and delivers exceptional results every time!"',
+        },
+        {
+            text: '"We saw a significant increase in our online engagement after working with them!"',
+        }
+    ];
+
+    let currentTestimonialIndex = 0;
+
+    const testimonialElement = document.querySelector('.testimonial p');
+    //const testimonialImage = document.querySelector('.testimonial-image');
+
+    function updateTestimonial() {
+        currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+        testimonialElement.textContent = testimonials[currentTestimonialIndex].text;
+        //testimonialImage.src = testimonials[currentTestimonialIndex].image;
+    }
+
+    setInterval(updateTestimonial, 3000); // Change testimonial every 5 seconds
+</script>
+
+</body>
+</html>
